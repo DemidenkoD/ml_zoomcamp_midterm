@@ -1,4 +1,4 @@
-# Use Python 3.14 to match .python-version / requires-python (>=3.14)
+# Python 3.14 image satisfies requires-python (>=3.12); uv uses the system interpreter below
 FROM python:3.14-slim
 
 # Set working directory
