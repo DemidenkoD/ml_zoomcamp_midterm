@@ -1,0 +1,46 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment variables & secrets
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Model artifacts (uncomment if models should not be committed)
+# models/*.joblib
+# models/*.pkl
+# models/*.bin
+
+# Data files (uncomment if raw dataset should not be committed)
+# data/*.csv
+
+# ML Zoomcamp refresher / scratch notebooks (local learning material, not part of deliverable)
+refresher/
+
+# Agent scaffolding & internal trackers (not part of peer-reviewed deliverable)
+AGENT-INSTRUCTIONS.md
+AGENTS.md
+PROGRESS.md
+todo.md
+
+# Streamlit / tool caches
+.streamlit/secrets.toml
+.pytest_cache/
+*.log
